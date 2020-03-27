@@ -40,5 +40,5 @@ def pop_with_args(array)
  end
 
  def using_delete(array, value)
-   array.delete(0)
+   array.delete(value)
 end
