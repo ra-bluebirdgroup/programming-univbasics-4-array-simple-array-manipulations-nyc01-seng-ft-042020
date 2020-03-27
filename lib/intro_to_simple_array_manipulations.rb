@@ -31,6 +31,10 @@ def pop_with_args(array)
    array.insert(1, newElement)
  end
 
- def using_uniq(array) 
+ def using_uniq(array)
     array.uniq!
   end
+
+ def using_flatten(array)
+   array.flatten
+ end
