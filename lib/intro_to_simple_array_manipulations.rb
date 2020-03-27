@@ -39,6 +39,6 @@ def pop_with_args(array)
    array.flatten
  end
 
- def using_delete(array, int)
+ def using_delete(array, 0)
    array.delete(int)
 end
