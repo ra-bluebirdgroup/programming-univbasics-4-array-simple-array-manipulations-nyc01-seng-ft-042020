@@ -27,8 +27,8 @@ def pop_with_args(array)
    array1.concat(array2)
  end
 
- def using_insert(array, newElement)
-   array.insert(newElement)
+ def using_insert(array, element)
+   array.insert(4, element)
  end
 
  def using_uniq(array)
