@@ -28,4 +28,9 @@ def pop_with_args(array)
  end
 
  def using_insert(array, newElement)
-   array.insert( 1 , newElement)
+   array.insert(1, newElement)
+ end
+
+ def using_uniq(array) 
+    array.uniq!
+  end
