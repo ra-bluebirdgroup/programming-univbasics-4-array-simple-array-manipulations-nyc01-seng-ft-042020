@@ -11,4 +11,10 @@ def using_push(array)
 end
 
 def pop_with_args(array)
-  array.pop(2)
+   value = array.pop(2)
+   return value
+ end
+
+ def using_shift(array)
+   array.shift
+ end
