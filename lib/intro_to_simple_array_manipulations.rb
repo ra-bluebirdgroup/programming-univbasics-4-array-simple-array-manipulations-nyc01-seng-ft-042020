@@ -45,3 +45,4 @@ end
 
 def using_delete(array, b)
   array.delete(b)
+end
